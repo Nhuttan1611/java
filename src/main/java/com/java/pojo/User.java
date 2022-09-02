@@ -42,6 +42,8 @@ import javax.xml.bind.annotation.XmlTransient;
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
+    public static final String ADMIN = "ROLE_ADMIN";
+    public static final String USER = "ROLE_USER";
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)

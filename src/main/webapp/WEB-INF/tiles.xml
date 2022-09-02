@@ -12,7 +12,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     <definition name="baseLayout" template="/WEB-INF/layout/base.jsp">
         <put-attribute name="title" value="" />
         <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
-        <put-attribute name="content" value="BASE" />
+        <put-attribute name="content" value="" />
         <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
     </definition>
         <definition name="index" extends="baseLayout">
@@ -23,10 +23,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <put-attribute name="title" value="DANG NHAP" />
         <put-attribute name="content" value="/WEB-INF/jsp/login.jsp" />
     </definition><!--
-    <definition name="register" extends="baseLayout">
+-->    <definition name="register" extends="baseLayout">
         <put-attribute name="title" value="DANG KY" />
         <put-attribute name="CONTENT" value="/WEB-INF/jsp/register.jsp" />
-    </definition>   -->
+    </definition>   
 </tiles-definitions>
 
 

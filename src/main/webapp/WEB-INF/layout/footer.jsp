@@ -6,4 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<h1>MY FOOTER</h1>
+<div class="alert alert-success">
+  <strong>Java</strong> &copy; 2022
+</div>
